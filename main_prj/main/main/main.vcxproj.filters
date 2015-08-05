@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MSG">
+      <UniqueIdentifier>{e51166c5-c688-49de-994c-1cb65b711510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ABONENT">
+      <UniqueIdentifier>{0369408d-5073-46e6-9646-2f3d0c9335e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MESSAGE_SYSTEM">
+      <UniqueIdentifier>{b9f4875e-f086-485d-95b7-04ff2784c6a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SERVICES">
+      <UniqueIdentifier>{33db8e06-e08b-423e-ab7a-34a8c408c24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CORE">
+      <UniqueIdentifier>{381d3a8b-121a-47f5-8f39-1deb4a23f397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STARTER">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>STARTER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Abonent.cpp">
+      <Filter>ABONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Address.cpp">
+      <Filter>ABONENT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\AddressService.cpp">
+      <Filter>MESSAGE_SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Abonent1.cpp">
+      <Filter>SERVICES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Abonent2.cpp">
+      <Filter>SERVICES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MainObj.cpp">
+      <Filter>SERVICES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MetaClass.cpp">
+      <Filter>CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Msg.cpp">
+      <Filter>MSG</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Msg.h">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MsgToAbonent2.h">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MsgEchoAbonent2.h">
+      <Filter>MSG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Abonent.h">
+      <Filter>ABONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Address.h">
+      <Filter>ABONENT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\AddressService.h">
+      <Filter>MESSAGE_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MessageSystem.h">
+      <Filter>MESSAGE_SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Singleton.h">
+      <Filter>CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\TimeHelper.h">
+      <Filter>CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Abonent1.h">
+      <Filter>SERVICES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Abonent2.h">
+      <Filter>SERVICES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MainObj.h">
+      <Filter>SERVICES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MetaClass.h">
+      <Filter>CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Thread.h">
+      <Filter>CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Runnable.h">
+      <Filter>CORE</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

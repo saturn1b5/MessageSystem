@@ -1,0 +1,25 @@
+﻿Build started 04.08.2015 17:11:08.
+     1>Project "L:\WRK_CORE\main_prj\main\main\main.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IL:\WRK_CORE\main_prj /IL:\WRK_CORE\3rdParty\tbb43_20150611oss\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Abonent1.cpp main.cpp
+         Abonent1.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\WRK_CORE\main_prj\main\Debug\main.exe" /INCREMENTAL /NOLOGO /LIBPATH:L:\WRK_CORE\3rdParty\tbb43_20150611oss\lib\ia32\vc10 tbb_debug.lib tbbmalloc_debug.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\WRK_CORE\main_prj\main\Debug\main.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\WRK_CORE\main_prj\main\Debug\main.lib" /MACHINE:X86 Debug\Abonent.obj
+         Debug\Abonent1.obj
+         Debug\Abonent2.obj
+         Debug\Address.obj
+         Debug\AddressService.obj
+         Debug\MainObj.obj
+         Debug\MetaClass.obj
+         Debug\Msg.obj
+         Debug\main.obj
+         main.vcxproj -> L:\WRK_CORE\main_prj\main\Debug\main.exe
+     1>Done Building Project "L:\WRK_CORE\main_prj\main\main\main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.33
