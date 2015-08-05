@@ -77,7 +77,9 @@ public:
 			if ( message ) {
 				message->exec( abonent );
 
-				 std::cout << "Ref count is : " << message.use_count() << "\n";
+				/////
+
+				std::cout << "Ref count is : " << message.use_count() << "\n";
 				std::cout << "Queue size is : " << messages[abonent.getAddress()].unsafe_size() << "\n";
 
 				//messages[abonent.getAddress()].
