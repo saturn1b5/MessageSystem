@@ -45,7 +45,7 @@ namespace pulsar
 {
 	class AddressService
 	{
-		typedef std::map<std::string, Address> Addresses;
+		 typedef std::map<std::string, Address> Addresses;
 		typedef std::map<std::string, Address>::const_iterator Iterator;
 
 	public:
